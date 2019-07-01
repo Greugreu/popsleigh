@@ -10,6 +10,15 @@ use Cocur\Slugify\Slugify;
  */
 class Property
 {
+    const TYPE = [
+        0 => 'Football',
+        1 => 'Basketball',
+        2 => 'Handball',
+        3 => 'Tennis',
+        4 => 'Hockey',
+        5 => 'Concert',
+        6 => 'Privé'
+    ] ;
     /**
      * @ORM\Id()
      * @ORM\GeneratedValue()

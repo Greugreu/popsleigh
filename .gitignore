@@ -1,4 +1,4 @@
-
+public/media
 ###> symfony/framework-bundle ###
 /.env.local
 /.env.local.php
@@ -176,3 +176,7 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.gitignore.io/api/linux,macos,windows,phpstorm+all
+
+###> liip/imagine-bundle ###
+/public/media/cache/
+###< liip/imagine-bundle ###

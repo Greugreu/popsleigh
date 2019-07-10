@@ -239,6 +239,11 @@ class Property
         return $this;
     }
 
+    public function getEventType(): string
+    {
+        return self::TYPE[$this->type];
+    }
+
     public function getParticipation(): ?bool
     {
         return $this->participation;
